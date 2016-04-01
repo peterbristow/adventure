@@ -25,5 +25,4 @@ while True:
     if valid_directions.get(direction):
         position = valid_directions[direction]
     else:
-        print "sorry, that isn't a val;id direction"
-        continue
+        print "sorry, that isn't a valid direction"
